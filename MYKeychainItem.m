@@ -34,7 +34,7 @@ NSString* const MYCSSMErrorDomain = @"CSSMErrorDomain";
     if (self != nil) {
         _itemRef = itemRef;
         CFRetain(_itemRef);
-        LogTo(INIT,@"%@, _itemRef=%@", [self class], itemRef);
+        LogTo(MYDefault,@"%@, _itemRef=%@", [self class], itemRef);
 #if MYCRYPTO_USE_IPHONE_API
         _isPersistent = YES;
 #endif
