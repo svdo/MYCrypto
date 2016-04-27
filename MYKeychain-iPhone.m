@@ -9,6 +9,7 @@
 #import "MYCrypto_Private.h"
 #import "MYDigest.h"
 #import "MYIdentity.h"
+#import "MYLogging.h"
 
 
 #if MYCRYPTO_USE_IPHONE_API

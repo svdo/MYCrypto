@@ -9,6 +9,7 @@
 #import "MYIdentity.h"
 #import "MYCrypto_Private.h"
 #import "MYDigest.h"
+#import "MYLogging.h"
 
 #import "MYErrorUtils.h"
 

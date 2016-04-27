@@ -10,7 +10,7 @@
 #import "MYCrypto_Private.h"
 #import "MYBERParser.h"
 #import "MYErrorUtils.h"
-
+#import "MYLogging.h"
 
 #if MYCRYPTO_USE_IPHONE_API
 // <MacErrors.h> is missing in iPhone SDK

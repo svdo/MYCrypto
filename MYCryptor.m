@@ -9,6 +9,7 @@
 #import "MYCryptor.h"
 #import "MYDigest.h"
 #import "Test.h"
+#import "MYLogging.h"
 
 #if MYCRYPTO_USE_IPHONE_API
 #import <Security/SecRandom.h>

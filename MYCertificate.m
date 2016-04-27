@@ -12,6 +12,7 @@
 #import "MYDigest.h"
 #import "MYCertificateInfo.h"
 #import "MYErrorUtils.h"
+#import "MYLogging.h"
 
 
 @interface MYCertificate ()

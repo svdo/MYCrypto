@@ -15,7 +15,7 @@
 #import "MYOID.h"
 #import "MYErrorUtils.h"
 #import "Test.h"
-
+#import "MYLogging.h"
 
 #define MYDEREncoderException @"MYDEREncoderException"
 

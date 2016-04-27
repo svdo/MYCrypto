@@ -9,6 +9,7 @@
 #import "MYPrivateKey.h"
 #import "MYCrypto_Private.h"
 #import "MYDigest.h"
+#import "MYLogging.h"
 #import <CommonCrypto/CommonDigest.h>
 
 @implementation MYPrivateKey

@@ -8,6 +8,8 @@
 
 #import "MYDigest.h"
 #import "Test.h"
+#import "MYLogging.h"
+
 #import <CommonCrypto/CommonDigest.h>
 
 #if TARGET_OS_IPHONE

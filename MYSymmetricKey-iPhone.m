@@ -9,6 +9,7 @@
 #import "MYSymmetricKey.h"
 #import "MYCryptor.h"
 #import "MYCrypto_Private.h"
+#import "MYLogging.h"
 
 #if MYCRYPTO_USE_IPHONE_API
 

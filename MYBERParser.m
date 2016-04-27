@@ -15,6 +15,7 @@
 #import "MYErrorUtils.h"
 #import "CollectionUtils.h"
 #import "Test.h"
+#import "MYLogging.h"
 
 
 #define MYBERParserException @"MYBERParserException"
