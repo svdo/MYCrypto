@@ -169,7 +169,7 @@
                             outputBuf, &outputLength);
     if (err) {
         free(outputBuf);
-        Warn(@"%scrypting failed (%ld)", (operation ?"En" :"De"), err);
+        Warn(@"%scrypting failed (%d)", (operation ?"En" :"De"), (int)err);
         // Note: One of the errors I've seen is -9809, which is errSSLCrypto (SecureTransport.h)
         return nil;
     } else
